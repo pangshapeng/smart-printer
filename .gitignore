@@ -1,0 +1,33 @@
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 编辑器/IDE (如果你决定不推送工作区) ---
+.vscode/
+.cursor/
+*.code-workspace
+.history/
+*.log
+
+# --- 语言相关 (根据你的背景) ---
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+
+# Go
+bin/
+pkg/
+/src/vendor/   # 如果你使用 vendor 模式
+*.exe
+*.test
+
+# --- 你的特定目录说明 ---
+# 既然源码在 src，通常我们要忽略的是编译产物（通常在 dist 或 bin）
+dist/
+build/
+out/
