@@ -31,3 +31,6 @@ pkg/
 dist/
 build/
 out/
+
+#工作数据
+data/
